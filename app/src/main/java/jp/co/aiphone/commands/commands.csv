@@ -1,0 +1,84 @@
+INI, OUT, REQUEST, Initialize
+NGK, OUT, REQUEST, Station Info
+NGT, IN, RESPONSE, Station Info
+AUT, OUT, REQUEST, Authentication
+END, OUT, END_COMMUNICATON, End the communication
+SWS, OUT, SEND_START, Station settings
+SIW, OUT, WRITE, Self Building Info
+LAW, OUT, WRITE, Lang Mode
+MW2, OUT, WRITE, PinCode of Manager
+MNW, OUT, WRITE, NfcTagId of Manager
+CAW, OUT, WRITE, PinCode of Contractor
+CNW, OUT, WRITE, NfcTagId of Contractor
+TMW, OUT, WRITE, Timer
+MGW, OUT, WRITE, Greeting Message
+KNW, OUT, WRITE, AccessCode(PinCode) Digit
+QLW, OUT, WRITE, QuickList
+STW, OUT, WRITE, StationSetting
+SWE, OUT, SEND_END, Station settings
+KWS, OUT, SEND_START, AccessCode settings
+KW2, OUT, WRITE, AccessCode
+KWE, OUT, SEND_END, AccessCode settings
+WS2, OUT, SEND_START, ResidenceInfo settings
+RW2, OUT, WRITE, Residence Info
+WE2, OUT, SEND_END, ResidenceInfo settings
+BWS, OUT, SEND_START, BuildingInfo settings
+BIW, OUT, WRITE, Building Info
+BWE, OUT, SEND_END, Station settings
+EWS, OUT, SEND_START, EntranceInfo settings
+EIW, OUT, WRITE, Entrance Info
+EWE, OUT, SEND_END, EntranceInfo settings
+MWS, OUT, SEND_START, GuardStation settings
+MIW, OUT, WRITE, GuardStaion Info
+MWE, OUT, SEND_END, GuardStation settings
+REW, OUT, WRITE, Lift2 (Elevator-Residence)
+ELW, OUT, WRITE, Lift1 (ElevatorSetting)
+JPS, OUT, SEND_START, Send Pictuer of Stand by Screen
+JPD, OUT, WRITE, Part of the picture
+JPR, IN, RESPONSE, Part of the picture Reception end
+JPE, OUT, SEND_END, Send Pictuer of Stand by Screen
+JPT, IN, RESPONSE, Picture transmission success
+JPF, IN, RESPONSE, Picture transmission failure
+LAR, OUT, REQUEST, Lang Mode
+LAA, IN, RESPONSE, Lang Mode
+MR2, OUT, REQUEST, PinCode of Manager
+MA2, IN, RESPONSE, PinCode of Manager
+MNR, OUT, REQUEST, NfcTagId of Manager
+MNA, IN, RESPONSE, NfcTagId of Manager
+CAR, OUT, REQUEST, PinCode of Contractor
+CAA, IN, RESPONSE, PinCode of Contractor
+CNR, OUT, REQUEST, NfcTagId of Contractor
+CNA, IN, RESPONSE, NfcTagId of Contractor
+TMR, OUT, REQUEST, Timer
+TMA, IN, RESPONSE, Timer
+MGR, OUT, REQUEST, Greeting Message
+MGA, IN, RESPONSE, Greeting Message
+KNR, OUT, REQUEST, AccessCode(PinCode) Digit
+KNA, IN, RESPONSE, AccessCode(PinCode) Digit
+PS2, OUT, REQUEST, Consecutive reading of AccessCode
+KA2, IN, RESPONSE, AccessCode
+SS2, OUT, REQUEST, Consecutive reading of ResidenceInfo (No LinkID)
+LS2, OUT, REQUEST, Consecutive reading of ResidenceInfo (With LinkID)
+RA2, IN, RESPONSE, ResidenceInfo
+QLR, OUT, REQUEST, Quick List
+QLA, IN, RESPONSE, Quick List
+STR, OUT, REQUEST, Consecutive reading of StationSetting
+STA, IN, RESPONSE, StationSetting
+STE, IN, RESPONSE, End Consecutive reading of StationSetting
+BRS, OUT, REQUEST, Consecutive reading of BuildingInfo
+BIA, IN, RESPONSE, BuildingInfo
+ERS, OUT, REQUEST, Consecutive reading of EntranceInfo
+EIA, IN, RESPONSE, EntranceInfo
+MRS, OUT, REQUEST, Consecutive reading of GuardStationInfo
+MIA, IN, RESPONSE, EntranceInfo
+SIR, OUT, REQUEST, Own building ID
+SIA, IN, RESPONSE, Own building ID
+RER, OUT, REQUEST, Lift2 (Elevator-Residence)
+REA, IN, RESPONSE, Lift2 (Elevator-Residence)
+ELR, OUT, REQUEST, Lift1 (ElevatorSetting)
+ELA, IN, RESPONSE, Lift1 (ElevatorSetting)
+EOK, IN, RESPONSE, Writing in completion
+NOT, IN, RESPONSE, No Data Available (End of Data)
+MER, IN, RESPONSE, Mode abnormality
+ERR, IN, RESPONSE, Registration data abnormality
+EER, IN, RESPONSE, Write anomaly

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tora</string>
+    <string name="card_title">Card Title</string>
+    <string name="service_name">AIPhone Setting Tool</string>
+</resources>
